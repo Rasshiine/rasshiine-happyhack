@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Futura-Bol';
+    src: url("fonts/Futura-Bol.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-BolObl';
+    src: url("fonts/Futura-BolObl.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-Boo';
+    src: url("fonts/Futura-Boo.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-BooObl';
+    src: url("fonts/Futura-BooObl.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-Dem';
+    src: url("fonts/Futura-Dem.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-DemObl';
+    src: url("fonts/Futura-DemObl.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-ExtBol';
+    src: url("fonts/Futura-ExtBol.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-ExtBolObl';
+    src: url("fonts/Futura-ExtBolObl.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-Lig';
+    src: url("fonts/Futura-Lig.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-LigObl';
+    src: url("fonts/Futura-LigObl.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-Med';
+    src: url("fonts/Futura-Med.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-MedObl';
+    src: url("fonts/Futura-MedObl.ttf");
+}
+
+.header {
+    text-align: center;
+    /*    background-image: url("img/background1.jpg");*/
+    /*    display: flex;*/
+    background-size: cover;
+    height: 820px;
+    position: absolute;
+    top: 0;
+    z-index: 99
+}
+
+.bxslider {
+    position: relative;
+    height: 1500px;
+}
+
+.bx-wrapper {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -50px;
+}
+
+.bx-viewport {
+    overflow: auto;
+    width: 102%;
+    height: 1000px;
+}
+
+
+nav ul {
+    float: right;
+    list-style-type: none;
+
+}
+
+ul.bxslider {
+    /*    float: right;*/
+    /*    list-style-type: none;*/
+    width: 1400px;
+    position: relative;
+
+}
+
+.bxslider img {
+    text-align: center;
+    width: 100vw;
+    background-size: cover;
+}
+
+.bxslider li {
+    width: 1000px;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: Futura-Dem;
+    margin-top: 50px;
+}
+
+nav a:hover {
+    color: #415dd3;
+}
+
+.logo {
+    display: inline;
+    width: 62.5%;
+    text-align: center;
+    padding: 120px 0px;
+    margin-top: 5%;
+}
+
+h1 {
+    color: #fff;
+    font-family: Futura-MedObl;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+h2 {
+    color: #415dd3;
+    text-align: center;
+    padding: 80px 0px;
+    font-size: 60px;
+    font-family: Futura-Bol;
+}
+
+h3 {
+    color: #415dd3;
+    margin: 40px 0px 10px 0px;
+    font-size: 15px;
+    font-family: Futura;
+    font-weight: 400;
+}
+
+#introduction {
+    margin: 0 auto;
+}
+
+#introduction img {
+    width: 450px;
+    float: left;
+}
+
+#introduction a {
+    text-align: center;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+#introduction p {
+    width: 400px;
+    margin-bottom: 25px;
+    float: left;
+    text-align: left;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+.box1 {
+    width: 350px;
+    height: 200px;
+    padding: 35px 90px;
+    float: left;
+    text-align: center;
+}
+
+.box2 {
+    width: 440px;
+    height: 200px;
+    padding: 5px 40px;
+    float: left;
+    text-align: center;
+}
+
+.box1 a {
+    background-color: #415dd3;
+
+}
+
+.box2 a {
+    background-color: #f6c143;
+
+}
+
+.box {
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 10px;
+    text-align: center;
+    margin: 15px 10px;
+    box-shadow: 2px 2px 4px lightgray;
+
+}
+
+.box img {
+    height: 150px;
+    margin: 15px;
+}
+
+.box p {
+    margin: 10px;
+    font-family: Futura-Med;
+
+}
+
+.box a {
+    margin: 0px 20px 50px;
+}
+
+.boxes-top {
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.boxes-bottom {
+    overflow: hidden;
+    width: 680px;
+    margin: 0 auto;
+}
+
+#blue {
+    margin-left: 75px;
+}
+
+#orange {
+    margin-right: 45px;
+}
+
+.particle-wrapper{
+    position: relative;
+    height: 1100px;
+}
+
+#courses {
+/*    background-color: #d9e5f7;*/
+    height: 1200px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+#courses a {
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 5px;
+/*    font-family: Futura-ExtBol;*/
+}
+
+#cb1 {
+    background-color: #e16e3c;
+}
+
+#cb2 {
+    background-color: #52a8da;
+}
+
+#cb3 {
+    background-color: #333333;
+}
+
+#cb4 {
+    background-color: #ed5f59;
+}
+
+#cb5 {
+    background-color: #f6db49;
+}
+
+#cb6 {
+    background-color: #ee7d47;
+}
+
+#cb7 {
+    background-color: #88ccdb;
+}
+
+.access {
+    text-align: center;
+    height: 750px;
+}
+
+footer {
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+
+}
+
+.images {
+    height: 600px;
+}
+
+.images img {
+    width: 300px;
+}
+
+.slider {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slick-arrow {
+    color: black;
+    background-color: black;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+/*
+    position: absolute;
+    top: 0;
+    left: 0;
+*/
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+/*  width: 100%;*/
+  height: 100%;
+  background-color: lightblue;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+

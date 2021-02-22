@@ -1,0 +1,43 @@
+.slick-slide img{
+    margin: 0;
+    display: block;
+/*    width: 400px;*/
+     height: 30vw; 
+  max-height: 400px;
+  min-height: 350px;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+
+
+.slick-prev, .slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    z-index: 999999;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+     color: black; 
+    border: none;
+    outline: none;
+     background: black;
+    z-index: 100;
+
+    
+}
+
+
